@@ -1,0 +1,212 @@
+@media (max-width: 575.98px) {
+  .page_container {
+    padding-top: 160px;
+  }
+  .card_item_wrapper {
+    width: 50%;
+    margin: 1rem 0;
+  }
+  .featured_container {
+    height: 60vh;
+  }
+  .featured_image {
+    height: 60vh;
+  }
+  .featured_container .featured_action .tag.title {
+    font-size: 50px;
+  }
+  .featured_container .featured_action .tag.low_title {
+    font-size: 30px;
+  }
+  .home_promotion .tag.title,
+  .home_promotion .tag.low_title {
+    font-size: 30px;
+  }
+  .card_item_wrapper .image {
+    height: 200px;
+  }
+  header .container {
+    flex-direction: column-reverse;
+  }
+  header .container .left {
+    width: 100%;
+    text-align: center;
+  }
+  header .container .right {
+    width: 100%;
+    border: none;
+  }
+  header .container .right .top,
+  header .container .right .bottom {
+    padding: 10px;
+    text-align: center;
+  }
+  .card_block {
+    margin: 50px 0;
+  }
+  footer .wrapper {
+    flex-direction: column;
+  }
+  /* --------------------- */
+  .shop_wrapper {
+    flex-direction: column;
+  }
+  .shop_wrapper .left {
+    width: 100%;
+  }
+  .shop_wrapper .right {
+    width: 100%;
+  }
+  .card_block_shop .card_item_wrapper {
+    width: 50%;
+    padding: 0 5px;
+  }
+  .card_item_wrapper.grid_bars {
+    width: 100%;
+  }
+  .card_item_wrapper.grid_bars .image {
+    width: 50%;
+  }
+  /* --------------------- */
+  .user_container {
+    flex-direction: column;
+  }
+  .user_container .user_left_nav {
+    width: 100%;
+    display: flex;
+  }
+  .user_container .user_left_nav .user-navs {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .user-navs div {
+    width: 100%;
+  }
+  .user-navs div a {
+    margin: auto;
+  }
+  .user_container .user_left_nav div h2 {
+    margin: 1rem 0;
+  }
+  .user_container .user_right {
+    width: 100%;
+    padding: 0;
+  }
+  .user_container .user_left_nav .links a {
+    width: fit-content;
+    padding: 10px 5px 10px 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .card_item_wrapper {
+    width: 50%;
+    margin: 1rem 0;
+  }
+  .featured_container {
+    height: 70vh;
+  }
+  .featured_image {
+    height: 70vh;
+  }
+  .featured_container .featured_action .tag.title {
+    font-size: 50px;
+  }
+  .featured_container .featured_action .tag.low_title {
+    font-size: 30px;
+  }
+  .home_promotion .tag.title,
+  .home_promotion .tag.low_title {
+    font-size: 40px;
+  }
+  header .container .left {
+    width: fit-content;
+    padding-right: 1rem;
+  }
+  header .container .right .top,
+  header .container .right .bottom {
+    padding: 10px;
+  }
+  /* --------------------- */
+  .shop_wrapper .left {
+    width: 25%;
+  }
+  .shop_wrapper .right {
+    width: 75%;
+  }
+  .card_block_shop .card_item_wrapper {
+    width: 50%;
+  }
+  .card_item_wrapper.grid_bars {
+    width: 100%;
+  }
+  .card_item_wrapper.grid_bars .image {
+    width: 50%;
+  }
+  /* --------------------- */
+  .user_container .user_left_nav {
+    width: 25%;
+  }
+  .user_container .user_right {
+    width: 75%;
+  }
+  .user_container .user_left_nav .links a {
+    width: fit-content;
+    padding: 10px 5px 10px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card_item_wrapper {
+    width: 50%;
+    margin: 1rem 0;
+  }
+  .featured_container {
+    height: 70vh;
+  }
+  .featured_image {
+    height: 70vh;
+  }
+  /* ----------------------------- */
+  .shop_wrapper .left {
+    width: 25%;
+  }
+  .shop_wrapper .right {
+    width: 75%;
+  }
+  .card_block_shop .card_item_wrapper {
+    width: 50%;
+  }
+  .card_item_wrapper.grid_bars {
+    width: 100%;
+  }
+  /* --------------------- */
+  .user_container .user_left_nav {
+    width: 20%;
+  }
+  .user_container .user_right {
+    width: 80%;
+  }
+  .user_container .user_left_nav .links a {
+    width: fit-content;
+    padding: 10px 5px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+}
+
+@media (min-width: 1440px) and (max-width: 1700px) {
+}
+
+@media (min-width: 1700.02px) {
+  .home_promotion .home_promotion_img {
+    height: 500px;
+  }
+}
