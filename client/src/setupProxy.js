@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'http://localhost:3002',
+      target: 'https://waves-the-guitar-shop.herokuapp.com',
       changeOrigin: true,
     })
   );
