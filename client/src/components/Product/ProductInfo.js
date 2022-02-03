@@ -3,7 +3,7 @@ import { Box, Typography } from '@mui/material';
 import { FaTruck, FaCheck, FaTimes, FaShoppingBag } from 'react-icons/fa'
 import { toast, ToastContainer } from 'react-toastify';
 import { useSelector, useDispatch } from 'react-redux';
-import { addToCartUser, auth } from '../../redux/actions/userActions'
+import { addToCartUser } from '../../redux/actions/userActions'
 
 const ProductInfo = ({ product }) => {
 
@@ -14,7 +14,6 @@ const ProductInfo = ({ product }) => {
         if (user.userData?.isAuth) {
             dispatch(addToCartUser(id)).then(res => {
                 if (res.payload) {
-                    dispatch(auth())
                     toast.success('Product Added Successfully', {
                         position: "top-right",
                         autoClose: 2000,

@@ -5,7 +5,11 @@ import {
 const woodReducer = (state = {}, action) => {
     switch (action.type) {
         case ADD_WOOD:
-            return { ...state, addWoodSuccess: action.payload }
+            return {
+                ...state,
+                success: action.payload.success,
+                woods: [...state.woods, action.payload.wood]
+            }
         case GET_WOODS:
             return { ...state, woods: action.payload }
         default:

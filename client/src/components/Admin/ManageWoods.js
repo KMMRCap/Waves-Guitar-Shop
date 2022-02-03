@@ -52,7 +52,6 @@ const ManageWoods = () => {
 
                         onSubmit={(values, { resetForm }) => {
                             dispatch(addWood(values)).then(res => {
-                                console.log(res.payload)
                                 if (res.payload.success) {
                                     toast.success('Wood Added Successfully', {
                                         position: "top-right",
@@ -63,7 +62,6 @@ const ManageWoods = () => {
                                         draggable: true,
                                         progress: undefined,
                                     });
-                                    dispatch(wood())
                                     setTimeout(() => {
                                         resetForm()
                                     }, 1500)

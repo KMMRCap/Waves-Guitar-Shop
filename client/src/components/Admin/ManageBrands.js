@@ -62,7 +62,6 @@ const ManageBrands = () => {
                                         draggable: true,
                                         progress: undefined,
                                     });
-                                    dispatch(brand())
                                     setTimeout(() => {
                                         resetForm()
                                     }, 1500)
